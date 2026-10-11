@@ -1,83 +1,53 @@
 import { getServerTranslator } from "@/lib/i18n/server";
-import { Check, ExternalLink } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { LicenseActivation } from "./license-activation";
-import { LICENSE_PLANS } from "./utils";
+import { CheckCircle2, Check } from "lucide-react";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default async function LicensesPage() {
   const t = await getServerTranslator();
+  const unlockedFeatures = [
+    "Multi-user team management with unlimited seats",
+    "Shared inboxes and collaborative mailbox access",
+    "Custom application branding and app icon customization",
+    "Automated email forwarding",
+    "All advanced routing and agentic workflows",
+    "Unlimited domain and alias configurations",
+  ];
+
   return (
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl md:text-3xl font-medium text-neutral-900">{t("licenses.title")}</h1>
         <p className="mt-2 text-sm text-neutral-500">
-          {t("licenses.description")}
+          All Pro and Team features are permanently unlocked and enabled for this installation.
         </p>
       </div>
-      <LicenseActivation>
-      <div className="grid gap-4 md:grid-cols-2">
-        {LICENSE_PLANS.map((plan) => {
-          const Icon = plan.icon;
-          return (
-            <Card
-              key={plan.name}
-              className="rounded-3xl border-0 bg-white p-6 flex flex-col"
-            >
-              <CardHeader className="space-y-4 py-0">
-                <div className="flex items-center justify-between">
-                  <span className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-700">
-                    <Icon className="h-5 w-5" />
-                  </span>
+
+      <Card className="rounded-3xl border-0 bg-white p-6">
+        <CardHeader className="flex-row items-center gap-4 space-y-0 py-0">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700">
+            <CheckCircle2 className="h-6 w-6" />
+          </div>
+          <div>
+            <CardTitle className="text-xl">Team Edition Active</CardTitle>
+            <CardDescription className="mt-1">
+              Full access granted without any seat limits or restrictions.
+            </CardDescription>
+          </div>
+        </CardHeader>
+        <CardContent className="pt-6">
+          <div className="space-y-3">
+            <p className="text-sm font-semibold text-neutral-900">Included Features:</p>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {unlockedFeatures.map((feature) => (
+                <div key={feature} className="flex items-center gap-2 text-sm text-neutral-700">
+                  <Check className="h-4 w-4 shrink-0 text-green-600" />
+                  <span>{feature}</span>
                 </div>
-                <div className="relative">
-                  <CardTitle>{plan.name}</CardTitle>
-                  <p className="mt-2 text-6xl text-neutral-950 flex">
-                    <span className="text-[12px] mt-2">$</span>
-                    <b>{plan.price}</b>
-                    {plan.originalPrice && (
-                      <span className="absolute right-0 bottom-6 line-through text-base opacity-40">
-                        ${plan.originalPrice}
-                      </span>
-                    )}
-                  </p>
-                </div>
-                <CardDescription>{t(plan.descriptionKey)}</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-3 pt-6 flex flex-col flex-1 min-h-0">
-                {plan.featureKeys.map((feature) => (
-                  <p
-                    key={feature}
-                    className="flex gap-2 text-sm text-neutral-600"
-                  >
-                    <Check className="mt-0.5 h-4 w-4 shrink-0 text-green-600" />
-                    {t(feature)}
-                  </p>
-                ))}
-                <span className="flex-1" />
-                <Button asChild className="mt-4 w-full">
-                  <a
-                    href={plan.checkoutUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {t("licenses.get", { plan: plan.name })}
-                    <ExternalLink className="h-4 w-4" />
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
-          );
-        })}
-      </div>
-      </LicenseActivation>
+              ))}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
     </div>
   );
 }

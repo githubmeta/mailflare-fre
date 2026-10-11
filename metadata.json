@@ -1,0 +1,7 @@
+{
+  "name": "Mailflare",
+  "description": "Multi-tenant email platform with domains, mailboxes, routing, and calendar.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

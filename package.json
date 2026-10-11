@@ -3,7 +3,7 @@
   "version": "0.5.2",
   "private": true,
   "scripts": {
-    "dev": "npm run db:bundle && vite dev --port 3000",
+    "dev": "npm run db:bundle && vite dev --host 0.0.0.0 --port 3000",
     "build": "npm run db:bundle && vite build",
     "build:next": "npm run db:bundle && MAILFLARE_RUNTIME=node next build",
     "start": "vite preview --port 3000",

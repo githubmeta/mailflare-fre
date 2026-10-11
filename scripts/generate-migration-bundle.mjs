@@ -1,8 +1,9 @@
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const root = new URL("../", import.meta.url);
 const migrationsDirectory = new URL("drizzle/migrations/", root);
-const output = new URL("src/lib/migrations/bundle.json", root);
+const outputDirectory = new URL("src/lib/migrations/", root);
+const output = new URL("bundle.json", outputDirectory);
 
 function splitSql(sql) {
 	const tokens = sql.match(/--[^\n]*(?:\n|$)|\/\*[\s\S]*?\*\/|'(?:''|[^'])*'|"(?:""|[^"])*"|`(?:``|[^`])*`|\[[^\]]*\]|[A-Za-z_]+|;|[^\S\n]+|\n|./g) ?? [];
@@ -42,4 +43,5 @@ const migrations = readdirSync(migrationsDirectory)
 		statements: splitSql(readFileSync(new URL(name, migrationsDirectory), "utf8")),
 	}));
 
+mkdirSync(outputDirectory, { recursive: true });
 writeFileSync(output, `${JSON.stringify({ migrations }, null, 2)}\n`);

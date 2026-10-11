@@ -23,7 +23,11 @@ export async function generateMetadata(): Promise<Metadata> {
 	const { appName } = await getHomeBranding();
 	return {
 		title: appName,
-		description: "Multi-tenant email on Cloudflare",
+		description: "Multi-tenant email platform with domains, mailboxes, routing, and calendar.",
+		openGraph: {
+			title: appName,
+			description: "Multi-tenant email platform with domains, mailboxes, routing, and calendar.",
+		},
 		icons: { icon: "/api/branding/icon", apple: "/icon-192.png" },
 		appleWebApp: {
 			capable: true,
