@@ -62,3 +62,6 @@ mailflare-landing
 .agents
 skills-lock.json
 /dist/
+-e 
+.*.hm
+node-compile-cache/
