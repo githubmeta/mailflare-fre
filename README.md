@@ -4,7 +4,7 @@
 
 Mailflare is a self-hosted email inbox for custom domains, built on Cloudflare. Supports **Resend**, or **AWS SES**
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/hieunc229/mailflare)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/githubmeta/mailflare-fre)
 
 ## Screenshots
 
@@ -13,9 +13,9 @@ Mailflare is a self-hosted email inbox for custom domains, built on Cloudflare. 
 
 ### Featured sponsors
 
-<a target="_blank" href="https://sequenzy.com/?ref=hieunc229/mailflare">
+<a target="_blank" href="https://sequenzy.com/?ref=githubmeta/mailflare-fre">
   <img height="80" src="/sponsors/sequenzy.png" alt="Sequenzy">
-</a>  <a target="_blank" href="https://drivemug.com/?ref=hieunc229/mailflare">
+</a>  <a target="_blank" href="https://drivemug.com/?ref=githubmeta/mailflare-fre">
   <img height="80" src="https://mailflare.co/sponsors/drivemug.png" alt="Drivemug">
 </a>
 
@@ -69,7 +69,7 @@ You choose the provider per domain and can switch anytime (see [Sending and rece
 2. **Finish setup.** Open the deployed app and follow `/setup` to check the install and create your admin account.
 3. **Connect a domain.** Add a domain from the same Cloudflare account and choose which service receives its mail. Mailflare sets up Email Routing, or guides you through Resend or Amazon SES. Then create your first mailbox. Add Resend or AWS credentials on the domain page when you need them.
 
-⚠️ **`CF_TOKEN` is required during deployment.** Create a scoped [Cloudflare API token with these permissions](https://github.com/hieunc229/mailflare/issues/24#issuecomment-5523686105) for the domains you want to connect:
+⚠️ **`CF_TOKEN` is required during deployment.** Create a scoped [Cloudflare API token with these permissions](https://github.com/githubmeta/mailflare-fre/issues/24#issuecomment-5523686105) for the domains you want to connect:
 
 - All accounts: Email Sending:Edit, DNS Settings:Edit, Email Routing Addresses:Edit
 - All zones: DNS Settings:Edit, Email Routing Rules:Edit, Zone Settings:Edit, DNS:Edit
@@ -82,7 +82,7 @@ Paste the prompt below into an agent with terminal access. Give it your Cloudfla
 - **Runtime token** (stored as the Worker secret `CF_TOKEN`): use the domain permissions above. Add **Email Sending Edit** to send mail. It must cover the zones you will connect in Mailflare.
 
 ```text
-Install Mailflare from https://github.com/hieunc229/mailflare in my Cloudflare account.
+Install Mailflare from https://github.com/githubmeta/mailflare-fre in my Cloudflare account.
 Ask me for my Cloudflare account ID, a scoped deployment API token, and a separate
 runtime CF_TOKEN through a secret input. Never print, commit, or place either token
 in a command argument or a tracked file. Use the deployment token only for Wrangler
