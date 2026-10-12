@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Mailboxadres",
 	"onboarding.goToInbox": "Naar postvak IN",
 	"home.homeLabel": "{app} startpagina",
-	"home.badge": "Cloudflare-native e-mailbeheer",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Mailboxen die aanvoelen als je postvak IN.",
 	"home.subheadline": "Voeg domeinen toe, routeer binnenkomende mail, verzend via API-sleutels en beheer je mailboxen vanuit één rustige werkruimte rond de berichtenlijst.",
 	"home.mockMail": "Mail",

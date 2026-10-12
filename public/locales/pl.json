@@ -837,7 +837,7 @@
 	"onboarding.mailboxAddress": "Adres skrzynki pocztowej",
 	"onboarding.goToInbox": "Przejdź do odebranych",
 	"home.homeLabel": "Strona główna {app}",
-	"home.badge": "Obsługa poczty natywna dla Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Skrzynki pocztowe, które czują się jak Twoja skrzynka odbiorcza.",
 	"home.subheadline": "Dodawaj domeny, kieruj pocztę przychodzącą, wysyłaj przez klucze API i zarządzaj skrzynkami pocztowymi z jednej spokojnej przestrzeni roboczej zbudowanej wokół listy wiadomości.",
 	"home.mockMail": "Poczta",

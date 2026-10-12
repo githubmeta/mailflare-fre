@@ -828,7 +828,7 @@
 	"onboarding.mailboxAddress": "邮箱地址",
 	"onboarding.goToInbox": "前往收件箱",
 	"home.homeLabel": "{app} 首页",
-	"home.badge": "Cloudflare 原生邮件运营",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "像收件箱一样好用的邮箱。",
 	"home.subheadline": "在一个围绕邮件列表打造的简洁工作区中，添加域名、路由收到的邮件、通过 API 密钥发送邮件，并管理你的邮箱。",
 	"home.mockMail": "邮件",

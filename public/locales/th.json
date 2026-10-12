@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "ที่อยู่กล่องจดหมาย",
 	"onboarding.goToInbox": "ไปที่กล่องจดหมายเข้า",
 	"home.homeLabel": "หน้าแรกของ {app}",
-	"home.badge": "การดำเนินงานอีเมลแบบ Cloudflare-native",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "กล่องจดหมายที่ให้ความรู้สึกเหมือนกล่องจดหมายเข้าของคุณ",
 	"home.subheadline": "เพิ่มโดเมน กำหนดเส้นทางอีเมลขาเข้า ส่งผ่านคีย์ API และจัดการกล่องจดหมายของคุณจากพื้นที่ทำงานที่เรียบง่ายซึ่งสร้างรอบรายการข้อความ",
 	"home.mockMail": "อีเมล",

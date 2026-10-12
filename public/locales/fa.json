@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "نشانی صندوق پستی",
 	"onboarding.goToInbox": "رفتن به صندوق ورودی",
 	"home.homeLabel": "صفحه اصلی {app}",
-	"home.badge": "عملیات ایمیل بومی Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "صندوق‌های پستی که شبیه صندوق ورودی خودتان هستند.",
 	"home.subheadline": "دامنه اضافه کنید، ایمیل‌های ورودی را مسیریابی کنید، با کلیدهای API ارسال کنید و صندوق‌های پستی خود را از یک فضای کاری آرام و متمرکز بر فهرست پیام‌ها مدیریت کنید.",
 	"home.mockMail": "ایمیل",

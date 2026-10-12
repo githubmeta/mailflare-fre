@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "메일함 주소",
 	"onboarding.goToInbox": "받은편지함으로 이동",
 	"home.homeLabel": "{app} 홈",
-	"home.badge": "Cloudflare 네이티브 이메일 운영",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "내 받은편지함처럼 편한 메일함.",
 	"home.subheadline": "도메인을 추가하고, 수신 메일을 라우팅하고, API 키로 발송하고, 메시지 목록 중심의 차분한 작업 공간에서 메일함을 관리하세요.",
 	"home.mockMail": "메일",

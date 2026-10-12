@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Endereço da caixa de correio",
 	"onboarding.goToInbox": "Ir para a caixa de entrada",
 	"home.homeLabel": "Página inicial de {app}",
-	"home.badge": "Operações de email nativas da Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Caixas de correio que parecem a sua caixa de entrada.",
 	"home.subheadline": "Adicione domínios, roteie emails recebidos, envie por chaves de API e faça a gestão de suas caixas de correio em um espaço de trabalho tranquilo, construído em torno da lista de mensagens.",
 	"home.mockMail": "Email",

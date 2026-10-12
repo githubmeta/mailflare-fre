@@ -828,7 +828,7 @@
 	"onboarding.mailboxAddress": "メールボックスのアドレス",
 	"onboarding.goToInbox": "受信トレイへ移動",
 	"home.homeLabel": "{app} ホーム",
-	"home.badge": "Cloudflare ネイティブのメール運用",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "受信トレイのように使えるメールボックス。",
 	"home.subheadline": "ドメインの追加、受信メールのルーティング、API キーによる送信、メールボックスの管理を、メール一覧を中心とした落ち着いたワークスペースで行えます。",
 	"home.mockMail": "メール",

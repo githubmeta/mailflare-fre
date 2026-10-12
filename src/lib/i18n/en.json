@@ -841,7 +841,7 @@
 	"onboarding.mailboxAddress": "Mailbox address",
 	"onboarding.goToInbox": "Go to inbox",
 	"home.homeLabel": "{app} home",
-	"home.badge": "Cloudflare-native email operations",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Mailboxes that feel like your inbox.",
 	"home.subheadline": "Add domains, route inbound mail, send through API keys, and manage your mailboxes from one quiet workspace built around the message list.",
 	"home.mockMail": "Mail",

@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Indirizzo della casella",
 	"onboarding.goToInbox": "Vai alla posta in arrivo",
 	"home.homeLabel": "Home di {app}",
-	"home.badge": "Gestione email nativa di Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Caselle che sembrano la tua posta in arrivo.",
 	"home.subheadline": "Aggiungi domini, instrada la posta in entrata, invia con chiavi API e gestisci le tue caselle da un unico spazio di lavoro sobrio, costruito attorno all'elenco dei messaggi.",
 	"home.mockMail": "Posta",

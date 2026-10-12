@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Adresse de la boîte mail",
 	"onboarding.goToInbox": "Aller à la boîte de réception",
 	"home.homeLabel": "Accueil {app}",
-	"home.badge": "Opérations e-mail natives Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Des boîtes mail qui ressemblent à votre boîte de réception.",
 	"home.subheadline": "Ajoutez des domaines, routez les e-mails entrants, envoyez via des clés d'API et gérez vos boîtes mail depuis un espace de travail serein, construit autour de la liste des messages.",
 	"home.mockMail": "E-mail",

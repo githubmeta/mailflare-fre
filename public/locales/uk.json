@@ -838,7 +838,7 @@
 	"onboarding.mailboxAddress": "Адреса поштової скриньки",
 	"onboarding.goToInbox": "Перейти до вхідних",
 	"home.homeLabel": "Головна {app}",
-	"home.badge": "Поштові операції, рідні для Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Поштові скриньки, які схожі на ваші вхідні.",
 	"home.subheadline": "Додавайте домени, спрямовуйте вхідну пошту, надсилайте через ключі API та керуйте поштовими скриньками з одного спокійного робочого простору, побудованого навколо списку повідомлень.",
 	"home.mockMail": "Пошта",

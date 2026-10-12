@@ -840,7 +840,7 @@
 	"onboarding.mailboxAddress": "Адрес почтового ящика",
 	"onboarding.goToInbox": "Перейти во входящие",
 	"home.homeLabel": "{app} — главная",
-	"home.badge": "Почтовые операции на базе Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Почтовые ящики, похожие на ваши входящие.",
 	"home.subheadline": "Добавляйте домены, маршрутизируйте входящую почту, отправляйте через ключи API и управляйте почтовыми ящиками в спокойном рабочем пространстве, построенном вокруг списка сообщений.",
 	"home.mockMail": "Почта",

@@ -828,7 +828,7 @@
 	"onboarding.mailboxAddress": "Địa chỉ hộp thư",
 	"onboarding.goToInbox": "Đến hộp thư đến",
 	"home.homeLabel": "Trang chủ {app}",
-	"home.badge": "Vận hành email nguyên bản trên Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Hộp thư mang cảm giác như hộp thư đến của bạn.",
 	"home.subheadline": "Thêm tên miền, định tuyến thư đến, gửi thư bằng khóa API và quản lý hộp thư của bạn từ một không gian làm việc tĩnh lặng xoay quanh danh sách thư.",
 	"home.mockMail": "Thư",

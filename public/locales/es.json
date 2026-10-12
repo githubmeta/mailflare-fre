@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Dirección del buzón",
 	"onboarding.goToInbox": "Ir a la bandeja de entrada",
 	"home.homeLabel": "Inicio de {app}",
-	"home.badge": "Operaciones de correo nativas de Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Buzones que se sienten como tu bandeja de entrada.",
 	"home.subheadline": "Añade dominios, enruta el correo entrante, envía con claves de API y gestiona tus buzones desde un espacio de trabajo tranquilo construido en torno a la lista de mensajes.",
 	"home.mockMail": "Correo",

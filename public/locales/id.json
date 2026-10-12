@@ -828,7 +828,7 @@
 	"onboarding.mailboxAddress": "Alamat kotak surat",
 	"onboarding.goToInbox": "Ke kotak masuk",
 	"home.homeLabel": "Beranda {app}",
-	"home.badge": "Operasi email asli Cloudflare",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Kotak surat yang terasa seperti kotak masuk Anda.",
 	"home.subheadline": "Tambahkan domain, rutekan email masuk, kirim melalui kunci API, dan kelola kotak surat Anda dari satu ruang kerja yang tenang dan berpusat pada daftar pesan.",
 	"home.mockMail": "Email",

@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Posta kutusu adresi",
 	"onboarding.goToInbox": "Gelen kutusuna git",
 	"home.homeLabel": "{app} ana sayfa",
-	"home.badge": "Cloudflare'e özgü e-posta operasyonları",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Gelen kutunuz gibi hissettiren posta kutuları.",
 	"home.subheadline": "Alan adı ekleyin, gelen e-postaları yönlendirin, API anahtarlarıyla gönderin ve posta kutularınızı ileti listesi etrafında kurulu sakin bir çalışma alanından yönetin.",
 	"home.mockMail": "E-posta",

@@ -832,7 +832,7 @@
 	"onboarding.mailboxAddress": "মেইলবক্সের ঠিকানা",
 	"onboarding.goToInbox": "ইনবক্সে যান",
 	"home.homeLabel": "{app} হোম",
-	"home.badge": "Cloudflare-নেটিভ ইমেইল পরিচালনা",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "আপনার ইনবক্সের মতো অনুভূত হওয়া মেইলবক্স।",
 	"home.subheadline": "ডোমেইন যোগ করুন, আসা মেইল রাউট করুন, API কী দিয়ে পাঠান এবং বার্তা তালিকাকে কেন্দ্র করে তৈরি একটি শান্ত ওয়ার্কস্পেস থেকে আপনার মেইলবক্স পরিচালনা করুন।",
 	"home.mockMail": "মেইল",

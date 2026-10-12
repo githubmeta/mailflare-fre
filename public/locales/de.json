@@ -834,7 +834,7 @@
 	"onboarding.mailboxAddress": "Postfachadresse",
 	"onboarding.goToInbox": "Zum Posteingang",
 	"home.homeLabel": "{app} Startseite",
-	"home.badge": "Cloudflare-native E-Mail-Betrieb",
+	"home.badge": "Powered by SocialMeAi.com",
 	"home.headline": "Postfächer, die sich wie Ihr Posteingang anfühlen.",
 	"home.subheadline": "Fügen Sie Domains hinzu, leiten Sie eingehende E-Mails weiter, senden Sie über API-Schlüssel und verwalten Sie Ihre Postfächer in einem ruhigen Arbeitsbereich rund um die Nachrichtenliste.",
 	"home.mockMail": "E-Mail",
